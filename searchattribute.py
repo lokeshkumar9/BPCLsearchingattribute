@@ -16,7 +16,7 @@ conn = pyodbc.connect(conn_str)
 
 @app.route('/')
 def home():
-    return render_template('upload.html')
+    return render_template('index.html')
 
 @app.route('/process', methods=['POST'])
 def process():
