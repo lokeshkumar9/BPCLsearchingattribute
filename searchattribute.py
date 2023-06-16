@@ -5,7 +5,7 @@ import pandas as pd
 app = Flask(__name__)
 
 # Define the connection details
-server = 'DESKTOP-CPG55GV\\MSSQLSERVER01'
+server = '192.168.241.112,49170'
 database = 'master'
 username = 'lokesh'
 password = '1234'
